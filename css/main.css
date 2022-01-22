@@ -37,7 +37,7 @@ html, body {
 	background: white;
 	border-radius: 5px;
 	cursor: pointer;
-	font-family:'Courier New', Courier, monospace;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .kanban__dropzone {
