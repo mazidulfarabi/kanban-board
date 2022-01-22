@@ -6,7 +6,7 @@ html, body {
 	display: flex;
 	min-height: 100% !important;
     height: 100%;
-	width: 80%;
+	width: 100%;
 	background: #009578;
 	border-radius: 5px;
 }
