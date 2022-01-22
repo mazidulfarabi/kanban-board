@@ -19,7 +19,7 @@ export default class Kanban {
 			},
 			{
 				id: 2,
-				title: "Working 🕐"
+				title: "Doing 🕐"
 			},
 			{
 				id: 3,
