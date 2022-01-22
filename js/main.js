@@ -3,7 +3,7 @@ import Kanban from "./view/Kanban.js";
 var header = $('body');
 
 var backgrounds = new Array(
-    'url(./img/1.jpg)'
+    'url(./img/1.webp)'
   , 'url(http://placekitten.com/200)'
   , 'url(http://placekitten.com/300)'
   , 'url(http://placekitten.com/400)'
@@ -16,7 +16,7 @@ function nextBackground() {
     current = current % backgrounds.length;
     header.css('background-image', backgrounds[current]);
 }
-setInterval(nextBackground, 1000);
+setInterval(nextBackground, 10000);
 
 header.css('background-image', backgrounds[0]);
 
