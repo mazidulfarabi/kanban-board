@@ -15,15 +15,15 @@ export default class Kanban {
 		return [
 			{
 				id: 1,
-				title: "TO-DO ☑️"
+				title: "To-Do ☑️"
 			},
 			{
 				id: 2,
-				title: "DOING 🕐"
+				title: "Doing ⌛"
 			},
 			{
 				id: 3,
-				title: "DONE 🎉"
+				title: "Done 🎉"
 			}
 		];
 	}
