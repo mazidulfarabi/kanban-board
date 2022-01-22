@@ -19,11 +19,11 @@ export default class Kanban {
 			},
 			{
 				id: 2,
-				title: "In Progress 🕐"
+				title: "Working 🕐"
 			},
 			{
 				id: 3,
-				title: "Completed 🎉"
+				title: "Done 🎉"
 			}
 		];
 	}
