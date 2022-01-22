@@ -15,7 +15,7 @@ export default class Kanban {
 		return [
 			{
 				id: 1,
-				title: "To-do ✔️"
+				title: "To-do ☑️"
 			},
 			{
 				id: 2,
