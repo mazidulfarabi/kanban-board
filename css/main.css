@@ -24,7 +24,7 @@ html, body {
 
 .kanban__column-title {
 	margin-bottom: 10px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: white;
 	user-select: none;
 }
