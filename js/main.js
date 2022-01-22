@@ -3,7 +3,7 @@ import Kanban from "./view/Kanban.js";
 var header = $('body');
 
 var backgrounds = new Array(
-    'url(./img/1.webp)'
+    'url(./img/1.jpg)'
   , 'url(http://placekitten.com/200)'
   , 'url(http://placekitten.com/300)'
   , 'url(http://placekitten.com/400)'
