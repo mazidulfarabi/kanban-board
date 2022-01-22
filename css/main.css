@@ -7,8 +7,7 @@ html, body {
 	min-height: 100% !important;
     height: 100%;
 	width: 100%;
-	background: #009578;
-	border-radius: 5px;
+	background-image: linear-gradient(to right, #757F9A , #D7DDE8);
 }
 
 .kanban * {
@@ -24,7 +23,7 @@ html, body {
 }
 
 .kanban__column-title {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 1rem;
 	color: white;
 	user-select: none;
