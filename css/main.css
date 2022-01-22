@@ -6,7 +6,7 @@ html, body {
 .kanban {
 	display: flex;
 	min-height: 100% !important;
-	padding: 5%;
+	padding: 5px;
     height: 100%;
 	width: 100%;
 	background: #009578;
