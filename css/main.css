@@ -8,7 +8,6 @@ html, body {
 	min-height: 100% !important;
     height: 100%;
 	width: 100%;
-	background: #009578;
 }
 
 .kanban * {
