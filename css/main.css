@@ -37,6 +37,7 @@ html, body {
 	background: white;
 	border-radius: 5px;
 	cursor: pointer;
+	font-family:'Courier New', Courier, monospace;
 }
 
 .kanban__dropzone {
