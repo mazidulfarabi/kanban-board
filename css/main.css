@@ -8,6 +8,7 @@ html, body {
 	min-height: 100% !important;
     height: 100%;
 	width: 100%;
+	background: #009578;
 }
 
 .kanban * {
@@ -27,6 +28,7 @@ html, body {
 	font-size: 1.2rem;
 	color: white;
 	user-select: none;
+	font-family:'Courier New', Courier, monospace;
 }
 
 .kanban__item-input {
