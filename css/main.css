@@ -1,5 +1,6 @@
 .kanban {
 	display: flex;
+	height: 10rem;
 	padding: 50px;
 	width: 80%;
 	background: #009578;
