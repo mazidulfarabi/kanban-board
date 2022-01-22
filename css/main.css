@@ -30,14 +30,14 @@ html, body {
 	user-select: none;
 	font-family: cursive;
 
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 0.5px black;
     color: white;
     text-shadow:
        3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+     -0.5px -0.5px 0 #000,  
+      0.5px -0.5px 0 #000,
+      -0.5px 0.5px 0 #000,
+       0.5px 0.5px 0 #000;
 }
 
 .kanban__item-input {
