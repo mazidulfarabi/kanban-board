@@ -30,7 +30,7 @@ html, body {
 	user-select: none;
 	font-family:'Courier New', Courier, monospace;
 	text-align: center;
-	text-decoration: wavy;
+	text-decoration: underline;
 
 	-webkit-text-stroke: 1px black;
     color: white;
