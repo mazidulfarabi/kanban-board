@@ -3,12 +3,12 @@ import Kanban from "./view/Kanban.js";
 var header = $('body');
 
 var backgrounds = new Array(
-    'url(./img/1.webp)'
-  , 'url(./img/2.webp)'
-  , 'url(./img/3.webp)'
-  , 'url(./img/4.webp)'
-  , 'url(./img/5.webp)'
-  , 'url(./img/6.webp)'
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6
 );
     
 var current = 0;
