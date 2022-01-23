@@ -29,6 +29,7 @@ html, body {
 	font-weight: bold;
 	user-select: none;
 	font-family: 'Sniglet', cursive;
+	text-align: center;
 	color: white;
 
 	-webkit-text-stroke: 1px black;
