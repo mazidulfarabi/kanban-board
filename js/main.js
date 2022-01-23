@@ -22,27 +22,7 @@ function changePicture() {
     setTimeout(changePicture, slideTime);
 }
 
-window.onload = function() {
-
-changePicture;
-var images = [];
-function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-        images[i] = new Image();
-        images[i].src = preload.arguments[i];
-    }
-}
-
-//-- usage --//
-preload(
-    "../img/2.webp",
-    "../img/3.webp",
-    "../img/4.webp",
-    "../img/5.webp",
-    "../img/6.webp",
-)
-
-}
+window.onload = changePicture;
 
 new Kanban(
 	document.querySelector(".kanban")
