@@ -22,8 +22,7 @@ function changePicture() {
     setTimeout(changePicture, slideTime);
 }
 
-window.addEventListener('load', 
-  function() { 
+window.onload = function() {
 
 changePicture;
 var images = [];
@@ -36,12 +35,14 @@ function preload() {
 
 //-- usage --//
 preload(
-    "http://domain.tld/gallery/image-001.jpg",
-    "http://domain.tld/gallery/image-002.jpg",
-    "http://domain.tld/gallery/image-003.jpg"
+    "../img/2.webp",
+    "../img/3.webp",
+    "../img/4.webp",
+    "../img/5.webp",
+    "../img/6.webp",
 )
 
-}, false);
+}
 
 new Kanban(
 	document.querySelector(".kanban")
