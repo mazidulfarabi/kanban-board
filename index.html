@@ -19,6 +19,25 @@
 			<button class="kanban__add-item" type="button">+ Add</button>
 		</div> -->
 	</div>
+
+	<script>
+		function preloadMyImages() 
+{
+    var imageList = [
+        "./img/2.webp",
+        "./img/3.webp",
+        "./img/4.webp",
+        "./img/5.webp",
+        "./img/6.webp"
+    ];
+    for(var i = 0; i < imageList.length; i++ ) 
+    {
+        var imageObject = new Image();
+        imageObject.src = imageList[i];
+    }
+}
+	</script>
+
 	<script src="js/main.js" type="module"></script>
 </body>
 </html>

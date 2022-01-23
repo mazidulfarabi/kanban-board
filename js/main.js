@@ -1,21 +1,5 @@
 import Kanban from "./view/Kanban.js";
 
-function preloadMyImages() 
-{
-    var imageList = [
-        "./img/2.webp",
-        "./img/3.webp",
-        "./img/4.webp",
-        "./img/5.webp",
-        "./img/6.webp"
-    ];
-    for(var i = 0; i < imageList.length; i++ ) 
-    {
-        var imageObject = new Image();
-        imageObject.src = imageList[i];
-    }
-}
-
 var header = $('body');
 
 var backgrounds = new Array(
