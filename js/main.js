@@ -4,12 +4,12 @@ var i = 0;
 var images = [];
 var slideTime = 3000; // 3 seconds
 
-images[0] = './img/2.webp';
-images[1] = './img/3.webp';
-images[2] = './img/4.webp';
-images[3] = './img/5.webp';
-images[4] = './img/6.webp';
-images[5] = './img/1.webp';
+images[0] = '../img/2.webp';
+images[1] = '../img/3.webp';
+images[2] = '../img/4.webp';
+images[3] = '../img/5.webp';
+images[4] = '../img/6.webp';
+images[5] = '../img/1.webp';
 
 function changePicture() {
     document.body.style.backgroundImage = "url(" + images[i] + ")";
