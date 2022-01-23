@@ -9,6 +9,22 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
+	<script type="text/javascript">
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"../img/2.webp",
+				"../img/3.webp",
+				"../img/4.webp",
+				"../img/5.webp",
+				"../img/6.webp"
+			)
+	</script>
 	<div class="kanban">
 		<!-- <div class="kanban__column">
 			<div class="kanban__column-title">Not Started</div>
