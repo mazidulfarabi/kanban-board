@@ -1,14 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Practise Words</title>
+	<title>Kanban Board</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
+	<script type="text/javascript">
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"../img/2.webp",
+				"../img/3.webp",
+				"../img/4.webp",
+				"../img/5.webp",
+				"../img/6.webp"
+			)
+	</script>
 	<div class="kanban">
 		<!-- <div class="kanban__column">
 			<div class="kanban__column-title">Not Started</div>
@@ -19,6 +35,7 @@
 			<button class="kanban__add-item" type="button">+ Add</button>
 		</div> -->
 	</div>
+
 	<script src="js/main.js" type="module"></script>
 </body>
 </html>
