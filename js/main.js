@@ -4,9 +4,11 @@ var header = $('body');
 
 var backgrounds = new Array(
     'url(./img/1.webp)'
-  , 'url(http://placekitten.com/200)'
-  , 'url(http://placekitten.com/300)'
-  , 'url(http://placekitten.com/400)'
+  , 'url(./img/2.webp)'
+  , 'url(./img/3.webp)'
+  , 'url(./img/4.webp)'
+  , 'url(./img/5.webp)'
+  , 'url(./img/6.webp)'
 );
     
 var current = 0;
@@ -16,7 +18,7 @@ function nextBackground() {
     current = current % backgrounds.length;
     header.css('background-image', backgrounds[current]);
 }
-setInterval(nextBackground, 10000);
+setInterval(nextBackground, 5000);
 
 header.css('background-image', backgrounds[0]);
 
