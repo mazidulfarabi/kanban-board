@@ -1,26 +1,28 @@
 import Kanban from "./view/Kanban.js";
 
-var header = $('body');
+var i = 0;
+var images = [];
+var slideTime = 3000; // 3 seconds
 
-var backgrounds = new Array(
-    'url(./img/1.webp)'
-  , 'url(./img/2.webp)'
-  , 'url(./img/3.webp)'
-  , 'url(./img/4.webp)'
-  , 'url(./img/5.webp)'
-  , 'url(./img/6.webp)'
-);
-    
-var current = 0;
+images[0] = './img/2.webp';
+images[1] = './img/3.webp';
+images[2] = './img/4.webp';
+images[3] = './img/5.webp';
+images[4] = './img/6.webp';
+images[5] = './img/1.webp';
 
-function nextBackground() {
-    current++;
-    current = current % backgrounds.length;
-    header.css('background-image', backgrounds[current]);
+function changePicture() {
+    document.body.style.backgroundImage = "url(" + images[i] + ")";
+
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+    setTimeout(changePicture, slideTime);
 }
-setInterval(nextBackground, 10000);
 
-header.css('background-image', backgrounds[0]);
+window.onload = changePicture;
 
 new Kanban(
 	document.querySelector(".kanban")
