@@ -1,6 +1,6 @@
 body::after{
 	position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-	content:url(1.webp) url(2.webp) url(3.webp) url(4.webp) url(5.webp) url(6.webp);
+	content:url(./img/1.webp) url(./img/2.webp) url(./img/3.webp) url(4.webp./img/4.webp) url(./img/5.webp) url(./img/6.webp);
  }
 
 html, body {
