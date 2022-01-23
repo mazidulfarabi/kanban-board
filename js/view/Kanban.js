@@ -19,11 +19,11 @@ export default class Kanban {
 			},
 			{
 				id: 2,
-				title: "Doing ⌛"
+				title: "Doing 🕐"
 			},
 			{
 				id: 3,
-				title: "Done 🎉"
+				title: "Done 💯"
 			}
 		];
 	}
