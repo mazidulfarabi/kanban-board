@@ -22,7 +22,7 @@ function changePicture() {
     setTimeout(changePicture, slideTime);
 }
 
-window.onload = changePicture;
+window.onload = setTimeout(changePicture, changePicture);
 
 new Kanban(
 	document.querySelector(".kanban")
