@@ -5,7 +5,7 @@ html, body {
 body {
 	background-repeat: no-repeat;
   	background-size: cover;
-	background-image: url('../img/1.webp');
+	background: #009578;
 }
 
 .kanban {
@@ -13,6 +13,7 @@ body {
 	min-height: 100% !important;
     height: 100%;
 	width: 100%;
+	background: #009578;
 }
 
 .kanban * {
