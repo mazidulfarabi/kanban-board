@@ -2,7 +2,7 @@ import Kanban from "./view/Kanban.js";
 
 var header = $('body');
 
-var backgrounds = new Array(
+var backgrounds = Array(
     'url(./img/1.webp)'
   , 'url(./img/2.webp)'
   , 'url(./img/3.webp)'
