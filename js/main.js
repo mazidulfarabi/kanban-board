@@ -2,7 +2,7 @@ import Kanban from "./view/Kanban.js";
 
 var i = 0;
 var images = [];
-var slideTime = 3000; // 3 seconds
+var slideTime = 5000; // 3 seconds
 
 images[0] = '../img/2.webp';
 images[1] = '../img/3.webp';
