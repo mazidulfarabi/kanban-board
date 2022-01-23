@@ -3,17 +3,17 @@ import Kanban from "./view/Kanban.js";
 var header = $('body');
 
 if (document.images) {
-  img1 = new Image();
+  var img1 = new Image();
   img1.src = "./img/1.webp";
-  img2 = new Image();
+  var img2 = new Image();
   img2.src = "./img/2.webp";
-  img3 = new Image();
+  var img3 = new Image();
   img3.src = "./img/3.webp";
-  img4 = new Image();
+  var img4 = new Image();
   img4.src = "./img/4.webp";
-  img5 = new Image();
+  var img5 = new Image();
   img5.src = "./img/5.webp";
-  img6 = new Image();
+  var img6 = new Image();
   img6.src = "./img/6.webp";
 }
 
